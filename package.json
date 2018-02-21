@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "ethereumjs-testrpc": "^6.0.3",
+    "truffle-contract": "^3.0.3"
+  }
+}

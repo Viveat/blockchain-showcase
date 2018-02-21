@@ -11,8 +11,6 @@ contract Viveat {
         bool isValid;
     }
     
-    
-    // Product[] products;
     mapping(int32 => Product) products;
     
     function Viveat() public {

@@ -27,7 +27,7 @@ contract Viveat {
         });
     }
     
-    function verifyProduct(int32 groupId) view returns (bool) {
+    function verifyProduct(int32 groupId) public view returns (bool) {
         return products[groupId].isValid;
     }
     
